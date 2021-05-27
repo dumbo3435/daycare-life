@@ -1,0 +1,14 @@
+local spam1 = "Angry"
+local spam2 = "Happy"
+local spam3 = "Laugh"
+local spam4 = "Surprise"
+local spam5 = "Ask"
+
+while true do
+wait()
+ game:GetService("ReplicatedStorage")._replicationFolder.Eventio.Storage.RemoteSignals.playEmote:FireServer(spam1)    
+ game:GetService("ReplicatedStorage")._replicationFolder.Eventio.Storage.RemoteSignals.playEmote:FireServer(spam2)   
+ game:GetService("ReplicatedStorage")._replicationFolder.Eventio.Storage.RemoteSignals.playEmote:FireServer(spam3)    
+ game:GetService("ReplicatedStorage")._replicationFolder.Eventio.Storage.RemoteSignals.playEmote:FireServer(spam4)    
+ game:GetService("ReplicatedStorage")._replicationFolder.Eventio.Storage.RemoteSignals.playEmote:FireServer(spam5)
+end
